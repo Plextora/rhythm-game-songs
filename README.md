@@ -51,4 +51,4 @@ Camellia
 
 [かめりあ - Blastix Riotz](https://plextora.github.io/rhythm-game-songs/Songs/Camellia%20-%20Blastix%20Riotz.mp3)
 
-This repo is maintained by [Plextora](https://github.com/Plextora)
+# This repo is maintained by [Plextora](https://github.com/Plextora)

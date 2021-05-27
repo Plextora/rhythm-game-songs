@@ -28,6 +28,8 @@ Anime
 
 [Hanasaka Yui (CV\_ M.A.O) - Harumachi Clover (TV Size)](https://plextora.github.io/rhythm-game-songs/Songs/Harumachi%20Clover%20.mp3)
 
+[Cö shu Nie - Asphyxia](https://plextora.github.io/rhythm-game-songs/Songs/Asphyxia.mp3)
+
 Weird rhythm
 ------------
 

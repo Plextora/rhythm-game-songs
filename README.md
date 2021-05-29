@@ -30,6 +30,8 @@ Anime
 
 [Cö shu Nie - Asphyxia](https://plextora.github.io/rhythm-game-songs/Songs/Asphyxia.mp3)
 
+[Tatsh - Image Material](https://plextora.github.io/rhythm-game-songs/Songs/image-material.mp3)
+
 Weird rhythm
 ------------
 

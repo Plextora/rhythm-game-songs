@@ -41,6 +41,8 @@ Weird rhythm
 
 [Nico Nico Douga - U.N. Owen Was Her](https://plextora.github.io/rhythm-game-songs/Songs/U.N.%20Owen%20Was%20Her.mp3)
 
+[黒魔 - 第三空中実験](https://plextora.github.io/rhythm-game-songs/Songs/Chroma%20-%20Third%20aerial%20experiment.mp3)
+
 Vocaloid
 --------
 

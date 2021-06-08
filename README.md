@@ -34,6 +34,8 @@ Anime
 
 [†吸tie Ladies† (Speed up ver.)](https://plextora.github.io/rhythm-game-songs/Songs/%E2%80%A0%E5%90%B8tie%20Ladies%E2%80%A0%20(Speed%20up%20ver.).mp3)
 
+[†Kyuutie Ladies† (nenpulse bootleg remix) (Speed up ver.)](https://plextora.github.io/rhythm-game-songs/Songs/%E2%80%A0Kyuutie%20Ladies%E2%80%A0%20(nenpulse%20bootleg%20remix)%20(Speed%20up%20ver.).mp3)
+
 Weird rhythm
 ------------
 

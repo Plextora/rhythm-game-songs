@@ -8,95 +8,236 @@
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="/rhythm-game-songs/assets/css/style.css?v=6faf4427c9c30285cdab446f2c16e7a48dd919e0">
 
-<!-- Start of SEO -->
-<title>Rhythm Game Songs | A website for rhythm game mappers to find songs to map</title>
-<meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="rhythm-game-songs" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="A website for rhythm game mappers to find songs to map" />
-<meta property="og:description" content="A website for rhythm game mappers to find songs to map" />
-<link rel="canonical" href="https://plextora.github.io/rhythm-game-songs/" />
-<meta property="og:url" content="https://plextora.github.io/rhythm-game-songs/" />
-<meta property="og:site_name" content="rhythm-game-songs" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="rhythm-game-songs" />
-<script type="application/ld+json">
-{"headline":"rhythm-game-songs","description":"A website for rhythm game mappers to find songs to map","url":"https://plextora.github.io/rhythm-game-songs/","@type":"WebSite","name":"rhythm-game-songs","@context":"https://schema.org"}</script>
-<!-- End of SEO --> 
+  <!-- Start of SEO -->
+  <title>Rhythm Game Songs | A website for rhythm game mappers to find songs to map</title>
+  <meta name="generator" content="Jekyll v3.9.0" />
+  <meta property="og:title" content="rhythm-game-songs" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="description" content="A website for rhythm game mappers to find songs to map" />
+  <meta property="og:description" content="A website for rhythm game mappers to find songs to map" />
+  <link rel="canonical" href="https://plextora.github.io/rhythm-game-songs/" />
+  <meta property="og:url" content="https://plextora.github.io/rhythm-game-songs/" />
+  <meta property="og:site_name" content="rhythm-game-songs" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:title" content="rhythm-game-songs" />
+  <script type="application/ld+json">
+  {"headline":"rhythm-game-songs","description":"A website for rhythm game mappers to find songs to map","url":"https://plextora.github.io/rhythm-game-songs/","@type":"WebSite","name":"rhythm-game-songs","@context":"https://schema.org"}</script>
+  <!-- End of SEO --> 
+  <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
+    <!-- Load FontAwesome icons -->
+    <link rel="stylesheet"
+          href=
+  "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+   
+    <style>
+      body {
+  background-color: lightgreen;
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
 
+  transition: background-color .5s;
+  }
+  
 
-<!-- Favicon -->
-	<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
+  .player {
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  }
+  
+  .details {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+  }
+  
+  .track-art {
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%;
+  }
+  
 
+  .now-playing {
+  font-size: 1rem;
+  }
+  
+  .track-name {
+  font-size: 3rem;
+  }
+  
+  .track-artist {
+  font-size: 1.5rem;
+  }
+  
+
+  .buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  }
+  
+  .playpause-track,
+  .prev-track,
+  .next-track {
+  padding: 25px;
+  opacity: 0.8;
+  
+
+  transition: opacity .2s;
+  }
+  
+
+  .playpause-track:hover,
+  .prev-track:hover,
+  .next-track:hover {
+  opacity: 1.0;
+  }
+  
+
+  .slider_container {
+  width: 75%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+
+  .seek_slider, .volume_slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: black;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  }
+  
+
+  .seek_slider::-webkit-slider-thumb,
+  .volume_slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: white;
+  cursor: pointer;
+  border-radius: 50%;
+  }
+  
+
+  .seek_slider:hover,
+  .volume_slider:hover {
+  opacity: 1.0;
+  }
+  
+  .seek_slider {
+  width: 60%;
+  }
+  
+  .volume_slider {
+  width: 30%;
+  }
+  
+  .current-time,
+  .total-duration {
+  padding: 10px;
+  }
+  
+  i.fa-volume-down,
+  i.fa-volume-up {
+  padding: 10px;
+  }
+  
+
+  i.fa-play-circle,
+  i.fa-pause-circle,
+  i.fa-step-forward,
+  i.fa-step-backward {
+  cursor: pointer;
+  }
+  .button {
+	font-family: "Lucida Console", "Courier New", monospace;
+     border-radius: 4px;
+     background-color: #FFFFFF;
+     border: none;
+     color: #000000a6;
+     text-align: center;
+     font-size: 28px;
+     padding: 20px;
+     width: 200px;
+     transition: all 0.5s;
+     cursor: pointer;
+     margin: 5px;
+     text-align: center;
+     position:absolute; top:0; right:0;
+}
+ .button span {
+     cursor: pointer;
+     display: inline-block;
+     position: relative;
+     transition: 0.5s;
+}
+ .button span:after {
+     content: '\00bb';
+     position: absolute;
+     opacity: 0;
+     top: 0;
+     right: -20px;
+     transition: 0.5s;
+}
+ .button:hover span {
+     padding-right: 25px;
+}
+ .button:hover span:after {
+     opacity: 1;
+     right: 0;
+}
+  
+    </style>
   </head>
-
   <body>
+    <div class="player">
+   
+      <div class="details">
+        <div class="now-playing">PLAYING x OF y</div>
+        <div class="track-art"></div>
+        <div class="track-name">Track Name</div>
+        <div class="track-artist">Track Artist</div>
+        <a href="Songdownload/songdownload.html"><button class="button"><span>Download Songs</span></button></a>
+      </div>
+   
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/Plextora/rhythm-game-songs">View Source Code</a>
+      <div class="buttons">
+        <div class="prev-track" onclick="prevTrack()">
+          <i class="fa fa-step-backward fa-2x"></i>
+        </div>
+        <div class="playpause-track" onclick="playpauseTrack()">
+          <i class="fa fa-play-circle fa-5x"></i>
+        </div>
+        <div class="next-track" onclick="nextTrack()">
+          <i class="fa fa-step-forward fa-2x"></i>
+        </div>
+      </div>
 
-          <h1 id="project_title">Rhythm Game Songs</h1>
-          <h2 id="project_tagline">A website for rhythm game mappers to find songs to map</h2>
-
-          
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        
-
-<h1 id="rhythm-game-songs-">Rhythm Game Songs!</h1>
-<p>On this website you&#39;ll find songs for rhythm game mappers to choose to map!</p>
-<p>This website is sorted into genres, including Electronic, Vocaloid, and Anime!</p>
-<h2 id="electronic">Electronic</h2>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/Sidetracked%20Day.mp3">VINXIS - Sidetracked Day.</a></p>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/Crack%20Traxxxx.mp3">Lite Show Magic - Crack traxxxx</a></p>
-
-
-<h2 id="anime">Anime</h2>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/the%20peggies%20-%20Kimi%20no%20Sei.mp3">the peggies - Kimi no Sei</a></p>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/Hitorigoto.mp3">ClariS - Hitorigoto -TV MIX-</a></p>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/Harumachi%20Clover%20.mp3">Hanasaka Yui (CV_ M.A.O) - Harumachi Clover (TV Size)</a></p>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/Asphyxia.mp3">Cö shu Nie - Asphyxia</a></p>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/image-material.mp3">Tatsh - Image Material</a></p>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/%E2%80%A0%E5%90%B8tie%20Ladies%E2%80%A0%20(Speed%20up%20ver.).mp3">†吸tie Ladies† (Speed up ver.)
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/%E2%80%A0Kyuutie%20Ladies%E2%80%A0%20(nenpulse%20bootleg%20remix)%20(Speed%20up%20ver.).mp3">†Kyuutie Ladies† (nenpulse bootleg remix) (Speed up ver.)
-
-
-<h2 id="weird-rhythm">Weird rhythm</h2>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/Anoneanoneanone%20Kouji%20ga%20Okureteruno.mp3">Light - Anoneanoneanoneanoneanoneanoneanoneanone Kouji ga Okureteruno</a></p>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/Marisa%20wa%20Taihen%20na%20Mono%20wo%20Nusunde%20Ikimashita.mp3">IOSYS - Marisa wa Taihen na Mono wo Nusunde Ikimashita</a></p>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/U.N.%20Owen%20Was%20Her.mp3">Nico Nico Douga - U.N. Owen Was Her</a></p>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/Chroma%20-%20Third%20aerial%20experiment.mp3">黒魔 - 第三空中実験</a></p>
-
-
-<h2 id="vocaloid">Vocaloid</h2>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/shousitu.mp3">cosMo@BousouP feat.Hatsune Miku - Hatsune Miku no Shoushitsu</a></p>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/atama%20no%20taisou.mp3">Hatsune Miku - Atama no Taisou</a></p>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/Rubik&#39;s%20Cube.mp3">Nanahoshi Kangengakudan feat. Hatsune Miku - Rubik&#39;s Cube</a></p>
-
-
-<h2 id="camellia">Camellia</h2>
-<p><a href="https://plextora.github.io/rhythm-game-songs/Songs/Camellia%20-%20Blastix%20Riotz.mp3">かめりあ  - Blastix Riotz</a></p>
-
-
-
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        
-        <p class="copyright">rhythm-game-songs maintained by <a href="https://github.com/Plextora">Plextora</a></p>
-        
-        <p>Credit to <a href="https://pages.github.com">GitHub Pages</a> for css/styling :D</p>
-      </footer>
-    </div>
-
- </body>
-</html>
+      <div class="slider_container">
+        <div class="current-time">00:00</div>
+        <input type="range" min="1" max="100"
+          value="0" class="seek_slider" onchange="seekTo()">
+        <div class="total-duration">00:00</div>
+      </div>
+    
+    <script src="js/app.js"></script>
+  </body>
+  </html>

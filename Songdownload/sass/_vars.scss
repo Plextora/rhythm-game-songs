@@ -1,0 +1,36 @@
+// Duration.
+	$duration-transition:		0.2s;
+
+// Size.
+	$size-border-radius:		4px;
+	$size-border-width:			1px;
+	$size-element-height:		3.5em;
+	$size-element-margin:		2em;
+
+// Font.
+	$font-family:				'Open Sans', sans-serif;
+	$font-family-fixed:			'Courier New', monospace;
+	$font-weight:				300;
+	$font-weight-bold:			600;
+
+// Color.
+	$color-bg:					#fff;
+	$color-fg:					#4a4a4a;
+	$color-fg-bold:				#2a2a2a;
+	$color-fg-light:			#bbb;
+
+	$color-accent-bg:			#e9685f;
+	$color-accent-fg:			mix($color-accent-bg, #ffffff, 25%);
+	$color-accent-fg-bold:		#ffffff;
+	$color-accent-fg-light:		mix($color-accent-bg, #ffffff, 40%);
+
+	$color-accent2-bg:			#1d2726;
+	$color-accent2-fg:			mix($color-accent2-bg, #ffffff, 25%);
+	$color-accent2-fg-bold:		#ffffff;
+	$color-accent2-fg-light:	mix($color-accent2-bg, #ffffff, 40%);
+
+	$color-border:				#eee;
+	$color-border-bg:			rgba(144,144,144,0.05);
+
+	$color-border2:				#ddd;
+	$color-border2-bg:			rgba(144,144,144,0.1);

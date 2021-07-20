@@ -22,11 +22,9 @@ Electronic
 Anime
 -----
 
-[the peggies - Kimi no Sei](https://plextora.github.io/rhythm-game-songs/Songs/the%20peggies%20-%20Kimi%20no%20Sei.mp3)
+[the peggies - 君のせい](https://plextora.github.io/rhythm-game-songs/Songs/the%20peggies%20-%20Kimi%20no%20Sei.mp3)
 
-[ClariS - Hitorigoto -TV MIX-](https://plextora.github.io/rhythm-game-songs/Songs/Hitorigoto.mp3)
-
-[Hanasaka Yui (CV\_ M.A.O) - Harumachi Clover (TV Size)](https://plextora.github.io/rhythm-game-songs/Songs/Harumachi%20Clover%20.mp3)
+[ClariS - ヒトリゴト](https://plextora.github.io/rhythm-game-songs/Songs/Hitorigoto.mp3)
 
 [Cö shu Nie - Asphyxia](https://plextora.github.io/rhythm-game-songs/Songs/Asphyxia.mp3)
 
@@ -50,7 +48,7 @@ Weird rhythm
 Vocaloid
 --------
 
-[cosMo@BousouP feat.Hatsune Miku - Hatsune Miku no Shoushitsu](https://plextora.github.io/rhythm-game-songs/Songs/shousitu.mp3)
+[cosMo@BousouP feat.Hatsune Miku - 初音ミクの消失](https://plextora.github.io/rhythm-game-songs/Songs/shousitu.mp3)
 
 [Hatsune Miku - Atama no Taisou](https://plextora.github.io/rhythm-game-songs/Songs/atama%20no%20taisou.mp3)
 

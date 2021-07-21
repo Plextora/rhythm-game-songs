@@ -120,6 +120,12 @@ let track_list = [
     image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.cytoid.io%2Flevels%2Fbundles%2FmbkrnQT3H1XLdmahE3T8NOl6mqpj71k4k26LoJYiKBMW2RJqKOd4L6imMZh2BIUQ90%2Fbg_gamever.png&f=1&nofb=1",
     path: "https://plextora.github.io/rhythm-game-songs/Songs/xi%20-%20Bad%20Elixir.mp3",
 },
+{
+    name: "Placebo Dying",
+    artist: "M2U",
+    image: "https://i.ytimg.com/vi/F8t5mR6AmK8/maxresdefault.jpg",
+    path: "https://plextora.github.io/rhythm-game-songs/Songs/M2U%20-%20Placebo%20Dying.mp3",
+},
 ];
 
 function loadTrack(track_index) {
@@ -264,4 +270,4 @@ function loadTrack(track_index) {
             }
             
             // Load the first track in the tracklist
-loadTrack(track_index);
+            loadTrack(track_index);
